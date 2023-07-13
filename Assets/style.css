@@ -157,6 +157,16 @@ body {
     line-height: 1.6;
     color: #555;
   }
+
+
+  .project a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .project a:hover {
+    color: #ff7f50;
+  }
   
   /* Contact Section */
   #contact {
