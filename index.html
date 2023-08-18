@@ -1,76 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Cristian Reyes</title>
-  <link rel="stylesheet" href="Assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Cristian Reyes</title>
+    <link rel="stylesheet" href="Assets/style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Cristian Reyes</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href= "https://www.linkedin.com/in/cristian-estiben-reyes/"> Linkedin </a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <h1>Cristian Reyes</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/cristian-estiben-reyes/"> Linkedin </a></li>
+                <li><a href="https://github.com/Cristianreyes6777"> Github</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section id="hero">
-    <div class="container">
-      <div class="hero-content">
-        <div class="hero-text">
-          <h2>Clinical Researcher | Software Engineer</h2>
-          <p>Passionate about the biotech world of drug discovery</p>
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Clinical Researcher | Software Engineer</h2>
+                    <p>Passionate about the biotech world of drug discovery</p>
+                </div>
+                <div class="hero-image">
+                  <img src="Assets/Profile picture.JPG" alt="Profile Picture">
+                </div>
+            </div>
         </div>
-        <div class="hero-image">
-            <!-- I added a smiley face in the mean time. I want to get a good picture of me in a suit looking professional before I add -->
-          <img src="Assets/Profile picture.JPG" alt="Profile Picture">
-        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hi, I'm Cristian. I am Clinical Researcher Manager with industry experience on the CRO side. With a strong foundation in Life Sciences, a M.S in Software Engineering, and industry experience; I possess a comprehensive education driven to explore the crossroads of science and technology. As a dedicated advocate for discovery, I combine my scientific and software development expertise to trailblaze the world of drug discovery and research. I strive towards creating a better tomorrow and unveiling endless innovative possibilities in Biopharma.</p>
+    </section>
+
+    <section id="education" class="container">
+      <h2>Education</h2>
+
+      <div class="cards-container">
+          <!-- Rutgers Card -->
+          <div class="card">
+              <div class="card-front">
+                  <img src="Assets\Rutgers logo.png" alt="Rutgers Icon">
+                  <h3>Rutgers University</h3>
+              </div>
+              <div class="card-back">
+                  <h3>Bachelors in Biology and Chemistry</h3>
+              </div>
+          </div>
+      
+          <!-- Bootcamp Card -->
+          <div class="card">
+              <div class="card-front">
+                  <img src="Assets\Rutgers logo.png" alt="Bootcamp Icon">
+                  <h3>Rutgers Bootcamp</h3>
+              </div>
+              <div class="card-back">
+                  <h3>Full Stack Coding Bootcamp</h>
+              </div>
+          </div>
+      
+          <!-- Boston University Card -->
+          <div class="card">
+              <div class="card-front">
+                  <img src="Assets\Boston University logo.png" alt="Boston University Icon">
+                  <h3>Boston University</h3>
+              </div>
+              <div class="card-back">
+                  <h3>Masters in Science in Software Engineering</h3>
+              </div>
+          </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="about" class="container">
-    <h2>About Me</h2>
-    <p> With a strong foundation in Life Sciences and a M.S in Software Engineering from Boston University; I possess a comprehensive education driven to explore the crossroads of science and technology. As a dedicated advocate for discovery, I combine my scientific expertise with my software expertise gained from my Rutgers' Coding Bootcamp and my Masters from BU. I strive towards creating a better tomorrow and unveiling endless innovative possibilities in Biopharma.</p>
-  </section>
+    <section id="portfolio" class="container">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <a href="https://cristianreyes6777.github.io/Optimizing-with-semantics/" target="_blank">
+                <h3><u>HORSEON</u></h3>
+                <p>This will be a description of some of the projects I will be doing in my boot camp. I wanted to figure out how to show a preview of the project inside this div. I was not able to figure it out. I did not just want to link it. However, click the box to be redirected to the HORSEON project</p>
+            </a>
+        </div>
+        <div class="project">
+            <h3><u>Portfolio page</u></h3>
+            <p>You are looking at the project :)</p>
+        </div>
+        <div class="project">
+            <a href="https://cristianreyes6777.github.io/SEAL-team-6/" target="_blank">
+                <h3> <u>First Live site</u></h3>
+                <p> for turning in purposes will update over the weekend or when i have time</p>
+            </a>
 
-  <section id="portfolio" class="container">
-    <h2>Portfolio</h2>
-    <div class="project">
-      <a href="https://cristianreyes6777.github.io/Optimizing-with-semantics/" target="_blank">
-        <h3>HORSEON</h3>
-        <p>This will be a description of some of the projects I will be doing in my boot camp. I wanted to figure out how to show a preview of the project inside this div. I was not able to figure it out. I did not just want to link it. However, click the box to be redirected to the HORSEON project</p>
-      </a>
-    </div>
-    <div class="project">
-      <h3>Portfolio page</h3>
-      <p>You are looking at the project :)</p>
-    </div>
-    <div class="project">
-     <a href="https://cristianreyes6777.github.io/SEAL-team-6/" target="_blank"> 
-      <h3> First Live site</h3>
-      <p> for turning in purposes will update over the weekend or when i have time</p>
-    </a>
+        </div>
+    </section>
 
-    </div>
-  </section>
-  
     <!-- Add more projects as needed to be continued as the boot camp progresses -->
-  </section>
+    </section>
 
-  <section id="contact" class="container">
-    <h2>Contact Me</h2>
-    <p>If you'd like to get in touch, feel free to reach out to me at <a href="mailto:cristianreyes6777@gmail.com">cristianreyes6777@gmail.com</a>.</p>
-  </section>
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out to me at <a href="mailto:cristianreyes6777@gmail.com">cristianreyes6777@gmail.com</a>.</p>
+    </section>
 
-  <footer>
-    <p>&copy; 2023 Cristian Reyes. All rights reserved.</p>
-  </footer>
+
+    <script>
+      document.querySelectorAll('.card').forEach(card => {
+          card.addEventListener('click', function() {
+              if (isFlipped(this)) {
+                  unflipCard(this);
+              } else {
+                  flipCard(this);
+              }
+          });
+      });
+  
+      function flipCard(cardElement) {
+          cardElement.classList.add('flipped');
+      }
+  
+      function unflipCard(cardElement) {
+          cardElement.classList.remove('flipped');
+      }
+  
+      function isFlipped(cardElement) {
+          return cardElement.classList.contains('flipped');
+      }
+  </script>
+   
+    <footer>
+        <p>&copy; 2023 Cristian Reyes. All rights reserved.</p>
+    </footer>
 </body>
-</html>
 
+</html>
