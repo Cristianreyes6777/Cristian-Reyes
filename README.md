@@ -14,7 +14,7 @@ Installation was simple, since no starter code was given. I git initalized a loc
 ## Usage
 The usage will be for me to have a professional portfolio as I progress through the bootcamp. As the bootcamp comes to a close, this portfolio will be even more interactive and nicer looking.
 
-Link [https://cristianreyes6777.github.io/Cristian-s-Professional-Profile/]
+Link https://cristianreyes6777.github.io/Cristian-s-Professional-Profile/
 
 ## Credits
 
