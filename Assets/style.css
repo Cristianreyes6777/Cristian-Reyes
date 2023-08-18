@@ -126,12 +126,14 @@ nav ul li a:hover {
 /* Education Section */
 #education {
   padding: 60px 0;
+  font-size: 26px;
 }
+
 
 .cards-container {
   display: flex;
-  justify-content: space-between;
-  gap: 20px; /* To ensure spacing between the cards */
+  justify-content: center;
+  gap: 15px; /* To ensure spacing between the cards */
 }
 
 .card {
@@ -179,9 +181,9 @@ nav ul li a:hover {
   background-color: #fff;
 }
 
-
-
-
+.card-back h3 {
+  padding: 10px; /* Adjust this value to your liking */
+}
 
 /* Portfolio Section */
 #portfolio {
