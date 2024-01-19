@@ -192,28 +192,39 @@ nav ul li a:hover {
 }
 
 /* Portfolio Section */
+/* Portfolio Section */
 #portfolio {
   padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #portfolio h2 {
   font-size: 36px;
   color: #000000;
   margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
 }
 
 .project {
   background-color: #fff;
   padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 0 20px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
+  flex: 1;
+  max-width: 300px;
+  min-width: 280px;
+  text-align: center;
 }
 
 .project:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .project h3 {
@@ -229,10 +240,10 @@ nav ul li a:hover {
   color: #555;
 }
 
-
 .project a {
   text-decoration: none;
   color: #333;
+  display: block;
 }
 
 .project a:hover {
