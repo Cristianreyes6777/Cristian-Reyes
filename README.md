@@ -16,7 +16,7 @@ The usage will be for me to have a professional portfolio as I progress through 
 
 Link:
 
- https://cristianreyes6777.github.io/Cristian-s-Professional-Profile/
+ https://cristianreyes6777.github.io/Cristian-Reyes/
 
 ## Credits
 
