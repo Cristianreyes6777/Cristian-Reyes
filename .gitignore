@@ -26,6 +26,11 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# cloudflare
+.open-next/
+.wrangler/
+cloudflare-env.d.ts
+
 # vercel
 .vercel
 
